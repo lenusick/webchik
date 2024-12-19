@@ -1,0 +1,42 @@
+body {
+    background: url('DZ1_passport_orig.png');
+    background-repeat: no-repeat;
+}
+
+.first_page{
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+    margin-left: 130px;
+    gap: 65px;
+}
+
+.second_page{
+    display: flex;
+    flex-direction: column;
+    margin-top: 232px;
+    gap: 6px;
+    margin-left: 212px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-left: -20px;
+}
+
+p{
+    margin: 0;
+    margin-bottom: 4px;
+}
+
+#name{
+    display: flex;
+    margin-top: 27px;
+}
+
+#for_click_trans {
+    margin-top: 100px;
+    margin-left: 210px;
+}

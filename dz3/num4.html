@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Низкокалорийный продукт</title>
+</head>
+<body>
+    <h1>Определение низкокалорийного продукта</h1>
+    <label for="products">Введите названия продуктов (через пробел):</label>
+    <br><br>
+    <input type="text" id="products" required>
+    <br><br><br>
+    <label for="nutrition">Введите информацию о белках, жирах и углеводах (формат: <белки>-<жиры>-<углеводы>):</label>
+    <br><br>
+    <input type="text" id="nutrition" required>
+    <br><br><br>
+    <button onclick="findLowestCalorieProduct()">Определить низкокалорийный продукт</button>
+    
+    <p id="result"></p>
+
+    <script src="num4.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Банковский счет</title>
+  <link rel="stylesheet" href="num3.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Операции с банковским счётом</h1>
+    <form id="transactionForm">
+      <input type="number" id="summa" placeholder="Введите сумму" required>
+
+      <label for="operation">Выберите операцию:</label>
+      <select id="operation" required>
+        <option value="vnesti">Внести на счет</option>
+        <option value="snyat">Снять со счета</option>
+      </select>
+
+      <button type="submit">Выполнить</button>
+    </form>
+    <p id="result"></p>
+    <p>Текущий баланс: <span id="balance">0</span> руб.</p>
+  </div>
+
+  <script src="num3.js"></script>
+</body>
+</html>
